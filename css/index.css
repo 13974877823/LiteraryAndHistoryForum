@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*首页搜索框区块总体样式*/
+.main_index_search{
+    background-color: #f2ecd4;
+    width: 960px;
+    height: 35px;
+    margin: 5px auto 5px auto;
+    line-height: 25px;
+}
+/*首页搜索框之文本输入框样式*/
+.index_search_form_text{
+    width:820px;
+    height:20px;
+    margin: 5px 10px 5px 10px;
+    border: solid 1px #756738;
+    background-color: #ECEADE;
+}
+/*首页搜索框之按钮样式*/
+.index_search_form_button{
+    width:100px;
+    height: 25px;
+    border: none;
+    background-color: #756738;
+    color: #fffff2;
+}
+/*论坛中间部分首页中部论坛信息总体样式*/
+.main_index_message{
+    width: 960px;
+    margin: 0 auto 0 auto;
+    height: 20px;
+}
+/*论坛中间部分首页中部论坛信息左侧样式*/
+.main_index_message_left{
+    float: left;
+    padding-left: 20px;
+    width: 700px;
+    font-size: 14px;
+    font-family: "黑体", Arial, Helvetica, sans-serif;
+    color: black;
+}
+/*论坛中间部分首页中部论坛信息右侧样式*/
+.main_index_message_right{
+    float: right;
+    padding-right: 20px;
+    width: 60px;
+    font-size: 14px;
+    font-family: "黑体", Arial, Helvetica, sans-serif;
+    color: black;
+}
+/*论坛中间部分首页一级版块信息总体样式*/
+.main_index_block{
+    width: 960px;
+    margin: 30px auto 30px auto;
+}
+
+/*论坛中间部分首页一级版块信息标题样式*/
+.main_index_block_title{
+    color: black;
+    padding-left: 20px;
+    font-family: "黑体", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+/*论坛中间部分首页一级版块信息主体部分总体样式*/
+.main_index_block_subject{
+    color: black;
+    background-color: #f3f0e7;
+    border: solid 1px #b6a684;
+}
+/*论坛中间部分首页一级版块内二级版块信息主体表格区块样式*/
+.main_index_block_subject_table{
+    margin: 0 auto 0 auto;
+    padding: 0px 5px 0px 5px;
+}
+/*论坛中间部分首页一级版块内二级版块信息主体表格区块版块表总体样式*/
+.index_block_table table tr td{
+    border: none;
+}
+/*论坛中间部分首页一级版块内二级版块信息主体表格区块版块表样式*/
+.index_block_table table{
+    width: 100%;
+}
+/*论坛中间部分首页一级版块内二级版块信息主体表格区块版块表单元格样式*/
+.index_block_table td{
+    text-align: left;
+}
+/*论坛中间部分首页一级版块内二级版块间分割线样式*/
+.main_index_block_subject_border{
+    width: 950px;
+    height: 11px;
+    margin: 0 auto 0 auto;
+    background-image: url("../images/index_block_xhx.jpg");
+    background-repeat: repeat;
+}
+/*论坛中间部分首页在线会员信息区块总体样式*/
+.main_index_member{
+    color: black;
+    background-color: #f3f0e7;
+    border: solid 1px #b6a684;
+}
+/*论坛中间部分首页在线会员信息表格区块样式*/
+.main_index_member_div{
+    margin: 0 auto 0 auto;
+    padding: 0px 5px 0px 5px;
+}
+/*论坛中间部分首页在线会员信息表格样式*/
+.main_index_member_div table{
+    width: 100%;
+}

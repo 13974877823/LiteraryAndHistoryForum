@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*注册页面注册表单区块总体样式*/
+.reg_main{
+    width: 960px;
+    margin: 20px auto 20px auto;
+    font-family: "黑体", Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #f3f0e7;
+    border: solid 1px #b6a684;
+}
+/*注册页面注册表单区块标题总体样式*/
+.reg_main_title_div{
+    height: 30px;
+    border: solid 1px #b6a684;
+    padding-top: 5px;
+}
+/*注册页面注册表单标题区块左边样式*/
+.reg_main_title_left{
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+}
+/*注册页面注册表单标题区块右边样式*/
+.reg_main_title_right{
+    font-size: 14px;
+    float: right;
+    padding-right: 10px;
+}
+/*注册页面注册表单主体区块总体样式*/
+.reg_main_main{
+    font-size: 14px;
+    width: 800px;
+    margin: 30px auto 30px auto;
+}
+/*注册页面注册表单之表格样式*/
+.reg_form_table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+/*注册页面注册表单之表格行样式*/
+.reg_form_table_tr{
+    height: 20px;
+    line-height: 20px;
+}
+/*注册页面注册表单之每行第一个单元格样式*/
+.reg_form_table_td1{
+    text-align: right;
+    width: 100px;
+}
+/*注册页面注册表单之每行第二个单元格样式*/
+.reg_form_table_td2{
+    text-align: left;
+    width: 300px;
+}
+/*注册页面注册表单之输入框正常样式*/
+.reg_form_input{
+    width: 300px;
+    height: 18px;
+    border: solid 1px #756738;
+    background-color: #f3f0e7;
+}
+/*注册页面注册表单之每行第三个单元格样式*/
+.reg_form_table_td3{
+    text-align: left;
+    width: 400px;
+}
+/*注册页面注册表单之提示信息样式*/
+.reg_form_table_td3_infospan{
+    color: red;
+    text-align: left;
+}
