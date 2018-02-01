@@ -5,7 +5,7 @@
     <meta name="keywords" content="有朋文史论坛，BBS，文学，历史">
     <meta name="description" content="有朋文史论坛，文学、历史爱好者的家园">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <title>有朋文史论坛★注册页面</title>
+    <title>有朋文史论坛★登录页面</title>
     <link rel="stylesheet" href="css/whole.css">
     <link rel="stylesheet" href="css/reg.css">
     <link rel="stylesheet" href="css/index.css">
@@ -25,7 +25,7 @@
 
         <!--论坛头部顶端右边开始-->
         <div class="header_top_right">
-            <a href="login.html" class="header_top_a">登录</a>&nbsp;&nbsp;<a href="reg.html" class="header_top_a">注册</a>
+            <a href="#" class="header_top_a">登录</a>&nbsp;&nbsp;<a href="reg.html" class="header_top_a">注册</a>
         </div>
         <!--论坛头部顶端右边结束-->
 
@@ -55,7 +55,7 @@
 </div>
 <!--论坛头部结束-->
 
-<!--注册页面中间部分开始-->
+<!--登录页面中间部分开始-->
 <div id="main">
 
     <!--论坛中间部分首页上部搜索框开始-->
@@ -68,32 +68,32 @@
     </div>
     <!--论坛中间部分首页上部搜索框开始-->
 
-    <!--注册页面注册表单开始-->
+    <!--登录页面登录表单开始-->
     <div class="reg_main">
 
-        <!--注册页面注册表单标题区块开始-->
+        <!--登录页面登录表单标题区块开始-->
         <div class="reg_main_title_div">
 
-            <!--注册页面注册表单标题区块左边开始-->
-            <div class="reg_main_title_left">注册（请使用纯中文名）</div>
-            <!--注册页面注册表单标题区块左边结束-->
+            <!--登录页面登录表单标题区块左边开始-->
+            <div class="reg_main_title_left">登录</div>
+            <!--登录页面登录表单标题区块左边结束-->
 
-            <!--注册页面注册表单标题区块右边开始-->
+            <!--登录页面登录表单标题区块右边开始-->
             <div class="reg_main_title_right">
-                <a href="login.html" class="header_top_a">已有帐号？现在登录</a>
+                <a href="reg.html" class="header_top_a">还没有帐号？马上注册</a>
             </div>
-            <!--注册页面注册表单标题区块右边结束-->
+            <!--登录页面登录表单标题区块右边结束-->
 
         </div>
-        <!--注册页面注册表单标题区块结束-->
+        <!--登录页面登录表单标题区块结束-->
 
-        <!--注册页面表单主体区块开始-->
+        <!--登录页面表单主体区块开始-->
         <div class="reg_main_main">
 
-            <!--注册表单开始-->
-            <form id="reg_form" name="regform" action="#" method="post">
+            <!--登录表单开始-->
+            <form id="login_form" name="loginform" action="#" method="post">
 
-                <!--注册表单表格开始-->
+                <!--登录表单表格开始-->
                 <table class="reg_form_table">
 
                     <tr class="reg_form_table_tr">
@@ -103,7 +103,7 @@
                             <input type="text" id="reg_form_username" name="username" class="reg_form_input">
                         </td>
                         <td class="reg_form_table_td3">
-                            <span class="reg_form_table_td3_infospan">用户名由 3 到 15 个字符组成，只能为汉字</span>
+                            <span class="reg_form_table_td3_infospan"></span>
                         </td>
 
                     </tr>
@@ -115,43 +115,7 @@
                             <input type="password" id="reg_form_password" name="password" class="reg_form_input">
                         </td>
                         <td class="reg_form_table_td3">
-                            <span class="reg_form_table_td3_infospan">密码可由大小写英文字母、数字组成，长度6－24位</span>
-                        </td>
-
-                    </tr>
-
-                    <tr class="reg_form_table_tr">
-
-                        <td class="reg_form_table_td1">确认密码：</td>
-                        <td class="reg_form_table_td2">
-                            <input type="password" id="reg_form_confirm" name="confirm" class="reg_form_input">
-                        </td>
-                        <td class="reg_form_table_td3">
-                            <span class="reg_form_table_td3_infospan">密码可由大小写英文字母、数字组成，长度6－24位</span>
-                        </td>
-
-                    </tr>
-
-                    <tr class="reg_form_table_tr">
-
-                        <td class="reg_form_table_td1">手机：</td>
-                        <td class="reg_form_table_td2">
-                            <input type="password" id="reg_form_phone" name="phone" class="reg_form_input">
-                        </td>
-                        <td class="reg_form_table_td3">
-                            <span class="reg_form_table_td3_infospan">手机号码由11位数字组成</span>
-                        </td>
-
-                    </tr>
-
-                    <tr class="reg_form_table_tr">
-
-                        <td class="reg_form_table_td1">邮箱：</td>
-                        <td class="reg_form_table_td2">
-                            <input type="password" id="reg_form_email" name="email" class="reg_form_input">
-                        </td>
-                        <td class="reg_form_table_td3">
-                            <span class="reg_form_table_td3_infospan">建议使用163邮箱</span>
+                            <span class="reg_form_table_td3_infospan"></span>
                         </td>
 
                     </tr>
@@ -172,9 +136,7 @@
                         <td class="reg_form_table_td1"></td>
                         <td class="reg_form_table_td2" colspan="2" >
                             <input type="submit" id="sub" name="sub" class="reg_form_submit" >
-                            <input type="checkbox" id="terms" name="terms" checked="checked"
-                                   class="reg_form_checkbox">
-                            我同意<a href="#" class="header_top_a">网站服务条款</a>
+                            忘记密码？<a href="#" class="header_top_a">点击找回</a>
                         </td>
 
                     </tr>
