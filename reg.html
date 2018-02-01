@@ -5,7 +5,7 @@
     <meta name="keywords" content="有朋文史论坛，BBS，文学，历史">
     <meta name="description" content="有朋文史论坛，文学、历史爱好者的家园">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <title>有朋文史论坛★文史爱好者的家园</title>
+    <title>有朋文史论坛★注册页面</title>
     <link rel="stylesheet" href="css/whole.css">
     <link rel="stylesheet" href="css/reg.css">
     <link rel="stylesheet" href="css/index.css">
@@ -19,13 +19,13 @@
     <div id="header_top">
         <!-- 论坛头部顶端左边开始 -->
         <div class="header_top_left">
-            <a href="#">设为首页</a>&nbsp;&nbsp;<a href="#">收藏本站</a>
+            <a href="#" class="header_top_a">设为首页</a>&nbsp;&nbsp;<a href="#" class="header_top_a">收藏本站</a>
         </div>
         <!-- 论坛头部顶端左边结束 -->
 
         <!--论坛头部顶端右边开始-->
         <div class="header_top_right">
-            <a href="#">登录</a>&nbsp;&nbsp;<a href="#">注册</a>
+            <a href="#" class="header_top_a">登录</a>&nbsp;&nbsp;<a href="reg.html" class="header_top_a">注册</a>
         </div>
         <!--论坛头部顶端右边结束-->
 
@@ -42,9 +42,9 @@
         <!-- 论坛头部底端菜单栏开始 -->
         <div class="header_bottom_nav">
             <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="#">文学</a></li>
-                <li><a href="#">历史</a></li>
+                <li><a href="index.html" class="header_bottom_nav_a">首页</a></li>
+                <li><a href="#" class="header_bottom_nav_a">文学</a></li>
+                <li><a href="#" class="header_bottom_nav_a">历史</a></li>
             </ul>
         </div>
         <!-- 论坛头部底端菜单栏结束 -->
@@ -80,7 +80,7 @@
 
             <!--注册页面注册表单标题区块右边开始-->
             <div class="reg_main_title_right">
-                <a href="#">已有帐号？现在登录</a>
+                <a href="#" class="header_top_a">已有帐号？现在登录</a>
             </div>
             <!--注册页面注册表单标题区块右边结束-->
 
@@ -159,13 +159,23 @@
                     <tr class="reg_form_table_tr">
 
                         <td class="reg_form_table_td1">验证码：</td>
-                        <td class="reg_form_table_td2">
+                        <td class="reg_form_table_td2" colspan="2">
                             <input type="text" id="code" name="verifyCode" style="width: 100px" class="reg_form_input">
-                        </td>
-                        <td class="reg_form_table_td3">
-                            <img id="Verify" align="top" onclick="change()" src="images/default.gif" style="cursor:pointer;height: 20px;width: 80px;">
+                            <img id="Verify" align="top" onclick="change()" src="images/default.gif"
+                                 style="cursor:pointer;height: 20px;width: 80px;" alt="看不清，换一张"
+                                 title="看不清，换一张" />
                         </td>
 
+                    </tr>
+
+                    <tr class="reg_form_table_tr">
+                        <td class="reg_form_table_td1"></td>
+                        <td class="reg_form_table_td2" colspan="2" >
+                            <input type="submit" id="sub" name="sub" class="reg_form_submit" >
+                            <input type="checkbox" id="terms" name="terms" checked="checked"
+                                   class="reg_form_checkbox">
+                            我同意<a href="#" class="header_top_a">网站服务条款</a>
+                        </td>
 
                     </tr>
 
@@ -186,6 +196,29 @@
 
 </div>
 <!--注册页面中间部分结束-->
+
+<!--论坛底部开始-->
+<div id="footer">
+    <!--论坛底部上部开始-->
+    <div class="footer_top">
+        <p class="footer_p">Archiver|手机版|Langya.Org ( 浙ICP备05062527号-1 )</p>
+    </div>
+    <!--论坛底部上部结束-->
+
+    <!--论坛底部中部开始-->
+    <div class="footer_middle">
+        <p class="footer_p">GMT+8, 2018-1-3 19:54 , Processed in 0.026352 second(s), 8 queries .</p>
+    </div>
+    <!--论坛底部中部结束-->
+
+    <!--论坛底部下部开始-->
+    <div class="footer_bottom">
+        <p class="footer_p">Powered by Discuz! X3.1 Licensed © 2001-2012 Comsenz Inc. Design by 360cd.cn</p>
+    </div>
+    <!--论坛底部下部结束-->
+
+</div>
+<!--论坛底部结束-->
 
 </body>
 </html>

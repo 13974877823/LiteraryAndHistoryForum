@@ -13,28 +13,37 @@ body{
 }
 /*链接普通样式*/
 a{
-    color: #756738;
+    text-decoration: none;
 }
 /*未访问的链接样式*/
 a:link{
     text-decoration: none;
-    color: #756738;
+   /* color: #756738;*/
 }
 /*鼠标放到连接上时的样式*/
 a:hover{
     text-decoration: underline;
-    color: #756738;
+    /*color: #756738;*/
 }
 /*链接被按下时的样式*/
 a:active{
     text-decoration: underline;
-    color: #756738;
+   /* color: #756738;*/
 }
 /*被访问过的链接样式*/
 a:visited{
     text-decoration: none;
-    color:#756738;
+    /*color:#756738;*/
 }
+/*论坛头部顶端链接样式*/
+.header_top_a{
+    color: #756738;
+}
+/*论坛头部导航栏链接样式*/
+.header_bottom_nav_a{
+    color: #a86078;
+}
+
 /*图片样式*/
 img{
     border: 0px;
@@ -64,7 +73,7 @@ img{
 .header_top_right{
     float:right;
     padding-right: 20px;
-    width: 70px;
+    width: 80px;
 }
 /*论坛头部中间总体样式*/
 #header_middle{

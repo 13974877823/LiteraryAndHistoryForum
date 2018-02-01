@@ -71,3 +71,20 @@
     color: red;
     text-align: left;
 }
+/*注册页面注册表单之提交按钮样式*/
+.reg_form_submit{
+    border: solid 1px #756738;
+    background-color: #b6a684;
+    color: #fffff2;
+    width: 50px;
+    height: 30px;
+}
+/*注册成功后页面中间信息提示区块总体样式*/
+.regsuccess{
+    color: #a86078;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    margin: 100px auto 100px auto;
+}

@@ -107,3 +107,15 @@
 .main_index_member_div table{
     width: 100%;
 }
+/*论坛首页中间论坛信息左侧链接样式*/
+.main_index_message_left_a{
+    color: black;
+}
+/*论坛首页中间论坛信息右侧链接样式*/
+.main_index_message_right_a{
+    color: #756738;
+}
+/*论坛首页中间部分通用链接样式*/
+.main_index_a{
+    color: black;
+}
