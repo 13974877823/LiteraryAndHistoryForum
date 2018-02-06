@@ -5,11 +5,12 @@
     <meta name="keywords" content="有朋文史论坛，BBS，文学，历史">
     <meta name="description" content="有朋文史论坛，文学、历史爱好者的家园">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <title>有朋文史论坛★注册成功页面</title>
+    <title>有朋文史论坛★发贴</title>
     <link rel="stylesheet" href="css/whole.css">
-    <link rel="stylesheet" href="css/reg.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/post.css">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 
@@ -25,7 +26,7 @@
 
         <!--论坛头部顶端右边开始-->
         <div class="header_top_right">
-            <a href="#" class="header_top_a">登录</a>&nbsp;&nbsp;<a href="reg.html" class="header_top_a">注册</a>
+            <a href="login.html" class="header_top_a">登录</a>&nbsp;&nbsp;<a href="reg.html" class="header_top_a">注册</a>
         </div>
         <!--论坛头部顶端右边结束-->
 
@@ -55,63 +56,88 @@
 </div>
 <!--论坛头部结束-->
 
-<!--注册成功页面中间部分开始-->
+<!--论坛中间部分开始-->
 <div id="main">
 
-    <!--论坛中间部分首页上部搜索框开始-->
-    <div class="main_index_search">
-        <form action="#" method="post" id="index_search_form" name="index_search">
-            <input id="search_form_text" type="text" name="search_form_t" class="index_search_form_text">
-            <input id="search_form_button" type="button" name="search_form_b"
-                   class="index_search_form_button" value="搜索">
-        </form>
-    </div>
-    <!--论坛中间部分首页上部搜索框开始-->
 
-    <!--论坛中间部分页面提示跳转链接开始-->
-    <div class="main_page_message">
 
-        <span><a href="index.html" class="main_index_a">有朋文史论坛</a></span>&nbsp;&gt;&nbsp;
-        <span><a href="index.html" class="main_index_a">论坛</a></span>
 
-    </div>
-    <!--论坛中间部分页面提示跳转链接结束-->
+<!--发贴表单区块开始-->
+    <div class="main_publish">
 
-    <!--注册成功页面注册表单开始-->
-    <div class="reg_main">
-
-        <!--注册成功页面标题区块开始-->
-        <div class="reg_main_title_div">
-
-            <!--注册成功页面注册表单标题区块左边开始-->
-            <div class="reg_main_title_left">注册</div>
-            <!--注册成功页面注册表单标题区块左边结束-->
-
+        <!--发贴表单标题区块开始-->
+        <div class="main_post_div">
+            <div class="main_post_div_title">发贴</div>
         </div>
-        <!--注册成功页面标题区块结束-->
+        <!--发贴表单标题区块结束-->
 
-        <!--注册成功页面主体区块开始-->
-        <div class="reg_main_main">
+        <table class="main_publish_table">
 
-            <!--注册成功后页面中间信息提示区块开始-->
-            <div class="regsuccess">
-                恭喜您,注册成功!<a href="#" class="header_top_a">立即登录</a>
+            <tr class="main_publish_table_tr">
+
+                <td width="120px" class="main_publish_title" >
+                    标题：
+                </td>
+
+                <td width="280px">
+                    <input id="posttitle" name="title" type="text" value="">
+                </td>
+
+                <td width="100px">
+                    <select class="main_publish_table_block">
+                        <option value="">选择主版块</option>
+                        <option name="wenxue" value="wenxue">文学</option>
+                        <option name="lishi" value="lishi" >历史</option>
+                    </select>
+                </td>
+
+                <td width="100px">
+
+                    <select class="main_publish_table_block">
+                        <option value="">选择副版块</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </td>
 
 
 
-            </div>
-            <!--注册成功后页面中间信息提示区块结束-->
+            </tr>
 
+            <tr class="main_publish_table_tr">
 
+                <td width="120px" class="main_publish_title" >
+                    内容：
+                </td>
 
-        </div>
-        <!--注册成功页面主体区块结束-->
+                <td colspan="3">
+                    <textarea id="posttext" name="text"></textarea>
+                </td>
+
+            </tr>
+
+            <tr class="main_publish_table_tr">
+
+                <td colspan="4" style="text-align: center">
+
+                    <input id="postsub" class="main_publish_sub" type="submit" value="发表帖子" >
+
+                </td>
+
+            </tr>
+
+        </table>
 
     </div>
-    <!--注册成功页面注册表单结束-->
+<!--发贴表单区块结束-->
+
+
+
 
 </div>
-<!--注册成功页面中间部分结束-->
+<!--论坛中间部分结束-->
+
+
 
 <!--论坛底部开始-->
 <div id="footer">
@@ -135,6 +161,7 @@
 
 </div>
 <!--论坛底部结束-->
+
 
 </body>
 </html>

@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*二级版块信息样式*/
+.main_block_message{
+    width: 960px;
+    margin: 0 auto 0 auto;
+    clear: both;
+    float: none;
+    border: solid 1px #756738;
+    font-size: 14px;
+    background-color: #f3f0e7;
+
+}
+/*二级版块信息上部区块样式*/
+.main_block_message_top{
+    width: 100%;
+    height: 20px;
+    color: #000000;
+    margin: 5px auto 5px auto;
+
+}
+/*二级版块信息上部区块左边样式*/
+.main_block_message_top_left{
+    float: left;
+    padding-left: 10px;
+    width: 500px;
+
+}
+/*二级版块信息上部区块左边版块标题样式*/
+.main_block_message_top_left01{
+    font-weight: bold;
+}
+/*二级版块信息上部区块左边数字样式*/
+.main_block_message_top_left02{
+    color: #FF2400;
+}
+/*二级版块信息上部右边样式*/
+.main_block_message_top_right{
+    float: right;
+    padding-right: 10px;
+    width: 100px;
+}
+/*二级版块信息下部样式*/
+.main_block_message_bottom{
+    width: 100%;
+    height: 20px;
+    color: #000000;
+    margin: 5px auto 5px auto;
+    padding-left: 10px;
+}
+/*二级版块上部发贴区块总体样式*/
+.ft{
+    width: 960px;
+    margin: 10px auto 10px auto;
+    clear: both;
+    float: none;
+    font-size: 14px;
+}
+/*二级版块上部发贴区块左边发贴按钮样式*/
+.ft_left{
+    float: left;
+    width: 200px;
+    padding-left: 10px;
+}
+/*二级版块上部发贴区右边翻页页码总体样式*/
+.ft_right{
+    float: right;
+    width: 700px;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 30px;
+}
+/*二级版块上部发贴区右边翻页页码返回或下一页链接样式*/
+.ft_right_fh{
+    background-color: #f3f0e7;
+    padding:5px 10px;
+    margin-right:5px;
+    font-family:Arial;
+    color:#000000;
+    border: 1px solid #756738;
+}
+/*二级版块上部发贴区右边翻页页码链接样式*/
+.ft_right_ym{
+    background-color: #f3f0e7;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-family:Arial;
+    color:#000000;
+    border: 1px solid #756738;
+}
+/*二级版块中部贴子列表区总体样式*/
+.tz{
+    width: 960px;
+    margin: 5px auto 5px auto;
+    clear: both;
+    float: none;
+    font-size: 12px;
+}
+/*二级版块中间帖子列表区上面分界线样式*/
+.tz_fjx{
+    border: solid 1px #756738;
+    width: 100%;
+}
+/*二级版块中间贴子列表上面筛选按钮区块总体样式*/
+.tz_sx{
+
+    width: 100%;
+}
+/*二级版块中间贴子列表上面筛选按钮区块筛选列表UL样式*/
+.tz_sx ul{
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+/*二级版块中间贴子列表上面筛选按钮区块筛选列表样式*/
+.tz_sx ul li{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    margin-right: 5px;
+}
+/*二级版块中间贴子列表上面筛选按钮区块筛选链接样式*/
+.tz_sx a{
+    background-color: #f3f0e7;
+    padding:5px 5px;
+    font-family:Arial;
+    color:#000000;
+    border: 1px solid #756738;
+
+}
+/*二级版块中间贴子列表中间列表区块总体样式*/
+.tz_list{
+    background-color: #f3f0e7;
+    color: black;
+    font-size: 12px;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    border: solid 1px #756738;
+    margin: 25px auto 25px auto;
+
+}
+/*二级版块中间贴子列表中间列表区块表格样式*/
+.tz_list_table{
+    width: 950px;
+   /* border-collapse: separate;*/
+   /* border-spacing: 10px;*/
+    border-collapse: collapse;
+    margin: 5px auto 5px auto;
+}
+/*二级版块中间贴子列表中间列表区块表格第一行样式*/
+.tz_list_table_tr1{
+    height: 40px;
+    line-height: 40px;
+
+}
+/*二级版块中间贴子列表中间列表区块表格第一个单元格*/
+.tz_list_table_tr_td1{
+    text-align: left;
+    width: 560px;
+}
+/*二级版块中间贴子列表中间列表区块表格第二个单元格*/
+.tz_list_table_tr_td2{
+    text-align: left;
+    width: 100px;
+}
+/*二级版块中间贴子列表中间列表区块表格第三个单元格*/
+.tz_list_table_tr_td3{
+    text-align: left;
+    width: 100px;
+}
+/*二级版块中间贴子列表中间列表区块表格第四个单元格*/
+.tz_list_table_tr_td4{
+    text-align: left;
+    width: 100px;
+}
+/*二级版块中间贴子列表中间列表区块表格第五个单元格*/
+.tz_list_table_tr_td5{
+    text-align: left;
+    width: 100px;
+}

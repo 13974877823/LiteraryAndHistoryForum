@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*发贴表单区块总体样式*/
+.main_publish{
+    width: 610px;
+    margin: 0 auto 0 auto;
+    clear: none;
+    float: none;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/*发贴表单标题区块样式*/
+.main_post_div{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 50px auto 50px auto;
+}
+/*发贴表单标题区块标题样式*/
+.main_post_div_title{
+    width: 200px;
+    font-size: 20px;
+    font-family: "黑体", Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 20px;
+
+}
+/*发贴表单区块表格样式*/
+.main_publish_table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 10px auto 10px auto;
+}
+/*发贴表单区块表格tr样式*/
+.main_publish_table_tr{
+    height: 25px;
+    line-height:25px;
+}
+/*发贴表单区块多项列表样式*/
+.main_publish_table_block{
+    height: 30px;
+}
+/*发贴表单区块贴子标题输入框样式*/
+#posttitle{
+    height: 25px;
+    width: 280px;
+}
+/*发贴表单区块贴子标题单元格样式*/
+.main_publish_title{
+    text-align: right;
+    font-size: 20px;
+}
+/*发贴表单区块贴子正文输入框样式*/
+#posttext{
+    width:490px;
+    height: 300px;
+}
+/*发贴按钮样式*/
+#postsub{
+    width: 200px;
+    height: 40px;
+    background-color: #756738;
+    color: #fffff2;
+    font-family: "黑体", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}

@@ -26,8 +26,8 @@
 /*论坛中间部分首页中部论坛信息总体样式*/
 .main_index_message{
     width: 960px;
-    margin: 0 auto 0 auto;
     height: 20px;
+    margin-top: 100px;
 }
 /*论坛中间部分首页中部论坛信息左侧样式*/
 .main_index_message_left{
@@ -50,7 +50,7 @@
 /*论坛中间部分首页一级版块信息总体样式*/
 .main_index_block{
     width: 960px;
-    margin: 30px auto 30px auto;
+    margin: 100px auto 30px auto;
 }
 
 /*论坛中间部分首页一级版块信息标题样式*/

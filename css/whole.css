@@ -123,6 +123,16 @@ div.header_bottom_nav ul li{
     clear: both;
     float: none;
 }
+/*论坛中间部分页面提示跳转链接样式*/
+.main_page_message{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+}
 /*论坛底部总体样式*/
 #footer{
     width: 960px;
