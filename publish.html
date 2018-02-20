@@ -71,62 +71,70 @@
         </div>
         <!--发贴表单标题区块结束-->
 
-        <table class="main_publish_table">
+        <!--发贴表单开始-->
+        <form id="post" name="post" action="#" >
 
-            <tr class="main_publish_table_tr">
+            <table class="main_publish_table">
 
-                <td width="120px" class="main_publish_title" >
-                    标题：
-                </td>
+                <tr class="main_publish_table_tr">
 
-                <td width="280px">
-                    <input id="posttitle" name="title" type="text" value="">
-                </td>
+                    <td width="120px" class="main_publish_title" >
+                        标题：
+                    </td>
 
-                <td width="100px">
-                    <select class="main_publish_table_block">
-                        <option value="">选择主版块</option>
-                        <option name="wenxue" value="wenxue">文学</option>
-                        <option name="lishi" value="lishi" >历史</option>
-                    </select>
-                </td>
+                    <td width="280px">
+                        <input id="posttitle" name="title" type="text" value="">
+                    </td>
 
-                <td width="100px">
+                    <td width="100px">
+                        <select class="main_publish_table_block">
+                            <option value="">选择主版块</option>
+                            <option name="wenxue" value="wenxue">文学</option>
+                            <option name="lishi" value="lishi" >历史</option>
+                        </select>
+                    </td>
 
-                    <select class="main_publish_table_block">
-                        <option value="">选择副版块</option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
-                </td>
+                    <td width="100px">
+
+                        <select class="main_publish_table_block">
+                            <option value="">选择副版块</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </td>
 
 
 
-            </tr>
+                </tr>
 
-            <tr class="main_publish_table_tr">
+                <tr class="main_publish_table_tr">
 
-                <td width="120px" class="main_publish_title" >
-                    内容：
-                </td>
+                    <td width="120px" class="main_publish_title" >
+                        内容：
+                    </td>
 
-                <td colspan="3">
-                    <textarea id="posttext" name="text"></textarea>
-                </td>
+                    <td colspan="3">
+                        <textarea id="posttext" name="text"></textarea>
+                    </td>
 
-            </tr>
+                </tr>
 
-            <tr class="main_publish_table_tr">
+                <tr class="main_publish_table_tr">
 
-                <td colspan="4" style="text-align: center">
+                    <td colspan="4" style="text-align: center">
 
-                    <input id="postsub" class="main_publish_sub" type="submit" value="发表帖子" >
+                        <input id="postsub" class="main_publish_sub" type="submit" value="发表帖子" >
 
-                </td>
+                    </td>
 
-            </tr>
+                </tr>
 
-        </table>
+            </table>
+
+        </form>
+        <!--发贴表单结束-->
+
+
 
     </div>
 <!--发贴表单区块结束-->
